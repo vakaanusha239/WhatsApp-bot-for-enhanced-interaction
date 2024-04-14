@@ -9,8 +9,7 @@ import soundfile as sf
 
 load_dotenv(find_dotenv())
 
-openai.api_key = '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'#'AIzaSyAa-WRh9Hv3TqklAcmFBxi5WiOFCQsNWoM'  #'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'
-#'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' #os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 def chat_completion(prompt: str) -> str:
