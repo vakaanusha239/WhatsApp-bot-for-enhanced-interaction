@@ -5,8 +5,8 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-account_sid = 'ACafa1c77fe9d35d4c250b7721993055a4' #os.environ['TWILIO_SID']
-auth_token = '8791e1265dc80c09432ea18e0df71ff5' #os.environ['TWILIO_TOKEN']
+account_sid = os.environ['TWILIO_SID']
+auth_token = os.environ['TWILIO_TOKEN']
 client = Client(account_sid, auth_token)
 
 
