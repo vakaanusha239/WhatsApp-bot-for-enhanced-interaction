@@ -5,6 +5,6 @@ This project is about a interactive bot development which is deployed in WhatsAp
 
 If we want to run the files we need to create a virtual environment and install the requirements.txt then need to run the run.py file to execute our project.Before Executing the run.py we need to connect our WhatsApp to twilio account and run ngrok at port no 5000. The both ngrok & run.py should be run parellel to receives the messages or replies for our queries. 
 
-The output of the bot we created are attached below. Check out....! 
+The output of the bot we created are attached in Video folder. Check out....! 
 
 
